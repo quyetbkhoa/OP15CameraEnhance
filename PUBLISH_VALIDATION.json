@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-17",
+  "environment": "Windows / Python 3.11.9 / Git Bash",
+  "verification": "Fresh independent local Git clone; no external H: paths used",
+  "verified_source_commit": "dfa4e4fe282fc66972a1ca836b6906a61fc114be",
+  "commands": [
+    {
+      "command": "python op15/enhance.py import-stock --odm reference-stock/CPH2745-601-odm --out op15/inputs/CPH2745-601-odm",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m unittest discover -s op15/tests -v",
+      "exit_code": 0
+    },
+    {
+      "command": "python op15/enhance.py validate artifacts/0.1.0-rc1/OP15-Camera-Enhance-0.1.0-rc1-CPH2745-601.zip",
+      "exit_code": 0
+    },
+    {
+      "command": "python op15/enhance.py build --stock op15/inputs/CPH2745-601-odm --out op15/dist/rebuild-rc1",
+      "exit_code": 0
+    }
+  ],
+  "tests": {
+    "passed": 30,
+    "failed": 0,
+    "skipped": 0
+  },
+  "minimal_stock_files": 10,
+  "minimal_stock_bytes": 677196,
+  "zip_byte_identical_to_frozen_candidate": true,
+  "artifact_sha256": "90eb0eddfbd23f52b1f9c4d6a7cf322309097c8e2fd7bce910b3ced6426831d0",
+  "Android_install_boot_namespace_algorithm_quality": "NOT RUN",
+  "device_mutations": "NONE",
+  "later_changes": "Only publication evidence/docs may follow this verified source commit; candidate/runtime sources remain frozen."
+}
