@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "model": "OnePlus 15",
+  "odm_oem": "CPH2745",
+  "soc": "SM8850",
+  "rom": "CPH2745_16.0.10.601(EX01)",
+  "source_kind": "preserved stock ODM extraction; not a live device capture",
+  "upstream_main": "09391e981a6874cbee395214e673f50e49b033dd",
+  "upstream_dev_inspected": "88dcbfc286f6e2f103e50228100e5c1c03efc1da",
+  "odm_version": "version_stub.d7e768d0",
+  "files": {
+    "build.prop": "c55620ef43eef781cfe26ae10444d7f26f401d8a353481273b6e7be3b1adbc92",
+    "etc/camera/CameraHWConfiguration.config": "1c57bedc071148ed291927f9543ac517684db878bce44062281dac9b8afbe9c7",
+    "etc/camera/config/camera_unit_config": "6a2d6f85e536f72bfcbb215b153aa4624cf14cfbb70c8226ffc610b95ded259d",
+    "etc/camera/config/oplus_camera_config": "23135a2133fe4e6efd7430a3b0024f7f01057b27cc0add1c4d6f8404c1cb9316",
+    "etc/camera/config/oplus_camera_aps_config": "0f4533eddb66e0b62d9bf7e72187c2f3c14697fcdd8ae865fa6863c79bf05738",
+    "etc/camera/config/oplus_camera_algo_switch_config": "4b14fb6ec140159c5ddbef86cab128fff86d8ff9394a97eb9be02c6084b2d923",
+    "etc/camera/conf_tuning_params.json": "ae96193bfc6442724f7a8df9fc8d4a966a23e48dbf34311f69c718cda8a7b056",
+    "etc/camera/config/infinitimain": "fa8e21f2128aec2247abf301b79f0860b1c31c79b03a0a458315808a7cf733a3",
+    "etc/camera/config/infinititele": "50bf97240c62f690ee15b01e3bf684a9e2595820b9272a43ac3d2a415ecef556",
+    "etc/camera/config/infinitiultrawide": "eb161400526ba0b7753def4c14a8761731205770916bc8db22b49e464f0f6b24"
+  },
+  "expected_payload_sha256": {
+    "odm/etc/camera/config/infinitimain": "7d5bc25b628b597e856b4ffd6be1005abe961b67a3629b34a26f74361bb27c1f",
+    "odm/etc/camera/config/infinititele": "7ecdbb673713c4f713628ae60986a4ca5a6380685e426f73ba5717cbe3f17273",
+    "odm/etc/camera/config/infinitiultrawide": "20355615f564471397a2bc8745dbe41124b66b90ab303f77b6ca7214b717a205"
+  }
+}

@@ -1,0 +1,6 @@
+id=op15_camera_enhance
+name=OP15 Camera Enhance (experimental)
+version=0.1.0-rc1
+versionCode=10001
+author=quyetbkhoa, Codex
+description=Stock OP15 low-ISO HDR sharpening experiment. Exact ODM checks required; image quality and runtime activation await device validation.

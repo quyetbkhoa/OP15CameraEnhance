@@ -1,0 +1,6 @@
+/op15/inputs/
+/op15/dist/
+/op15/captures/
+/captures/
+__pycache__/
+*.pyc

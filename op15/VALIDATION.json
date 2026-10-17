@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-17",
+  "platform": "Windows, Python 3.11.9, Git Bash",
+  "tests": {
+    "command": "python -m unittest discover -s op15/tests -v",
+    "passed": 30,
+    "failed": 0,
+    "skipped": 0
+  },
+  "archive_validation": "PASS: CRCs, path allowlist, Unix modes, LF shell scripts, pinned stock and reviewed payload digests",
+  "source_preservation": "PASS: imported original guard files still match reference; original H: extraction remains read-only",
+  "reproducibility": "PASS: independently built ZIPs were byte-identical in regression test",
+  "shell_mount_tests": "SIMULATED using private temporary files; no real mount/umount invoked",
+  "adb": "NOT RUN; waiting for owner to connect OP15",
+  "android_root_manager_install": "NOT RUN",
+  "android_boot_selinux_mount_namespaces": "NOT RUN",
+  "algorithm_activation": "NOT RUN",
+  "image_quality_and_capture_stability": "NOT RUN",
+  "artifact_sha256": "90eb0eddfbd23f52b1f9c4d6a7cf322309097c8e2fd7bce910b3ced6426831d0"
+}
